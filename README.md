@@ -1,4 +1,4 @@
-# Spotify Track Popularity - MLOps Project (Labs 1-4)
+# Spotify Track Popularity - MLOps Project (Labs 1-6)
 
 Same structure as the Telco Churn project, rebuilt for `dataset.csv` (Spotify tracks).
 
