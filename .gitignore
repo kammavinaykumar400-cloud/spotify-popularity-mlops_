@@ -1,0 +1,19 @@
+# Environments
+venv/
+env/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Generated data / models / outputs
+data/processed/*.npy
+data/processed/test_raw.csv
+models/*.pkl
+logs/
+outputs/
+artifacts/
+.vscode/
+
+# MLflow tracking data
+mlruns/
+mlflow.db

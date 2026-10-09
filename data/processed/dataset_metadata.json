@@ -1,0 +1,34 @@
+{
+    "dataset_name": "Spotify Tracks - Popularity",
+    "target": "is_popular (popularity >= 50)",
+    "n_unique_tracks": 89740,
+    "positive_rate": 0.2363,
+    "train_shape": [
+        71792,
+        139
+    ],
+    "test_shape": [
+        17948,
+        139
+    ],
+    "numerical_features": [
+        "duration_ms",
+        "danceability",
+        "energy",
+        "loudness",
+        "speechiness",
+        "acousticness",
+        "instrumentalness",
+        "liveness",
+        "valence",
+        "tempo"
+    ],
+    "categorical_features": [
+        "explicit",
+        "key",
+        "mode",
+        "time_signature",
+        "track_genre"
+    ],
+    "random_state": 42
+}
